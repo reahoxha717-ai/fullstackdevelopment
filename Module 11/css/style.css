@@ -1,0 +1,26 @@
+h2{
+    color: brown;
+    font-size: 100px;
+margin-left:-50px;
+margin:100px;
+
+}
+
+
+p{
+    margin-top: 100px;
+    margin-left: 100px;
+margin-bottom: 100px;
+margin-right: 100px;
+}
+
+
+h1{
+    margin: 100px 150px -50px 80px;
+    /*top right left bottom*/
+    background-color:rebeccapurple;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 900px;
+}
