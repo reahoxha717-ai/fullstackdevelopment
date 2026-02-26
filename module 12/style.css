@@ -1,0 +1,31 @@
+.blue{
+    color: blue;
+    text-decoration: overline;
+}
+
+.red{
+    color:red;
+text-decoration: underline;
+}
+
+#dizajni{
+    font-family: fantasy;
+}
+
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: cadetblue;
+    text-decoration: overline;
+}
