@@ -1,0 +1,129 @@
+.container{
+    display:flex;
+    background-color: #06206a;
+}
+.container div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px;
+}
+
+
+.container div:nth-child(1){
+    order:2;
+}
+.container div:nth-child(2){
+    order:4;
+}
+.container div:nth-child(3){
+    order:3;
+}
+.container div:nth-child(4){
+    order:1;
+}
+
+/*Flex Direction:row,row,reverse, colum colum reverse */
+
+.container1{
+    display:flex;
+    background-color:#06206a;
+    flex-direction: row;
+
+}
+
+.container1 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px;
+}
+/*Flex Grow*/
+
+.container2{
+    background-color: #06206a;
+    display:flex;
+    flex-direction: row;
+}
+
+.container2 div{
+     background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px;
+}
+
+.container div:nth-child(3){
+    flex-grow:4;
+}
+
+/*Flex Wrap*/
+
+/*flex-wrap:nowrap,wrap,wrap-reverse*/
+
+.container3{
+    background-color: #06206a;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container3 div{
+     background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px;
+}
+
+/*Justify Content flex-start, flex-end, center, space-between, space-around, space-evenly*/
+/*Alling Self*/
+.container4{
+display:flex;
+background-color: #06206a;
+flex-direction: row;
+justify-content: space-around;
+height: 200px;
+align-items: Flex-start;
+}
+
+.container4 div{
+ background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px;   
+height: 200px;
+align-items: Flex-start;
+}
+
+
+.container5{
+display:flex;
+background-color: #06206a;
+flex-direction: row;
+justify-content: space-around;
+height: 200px;
+align-items: Flex-start;
+}
+
+.container5 div{
+ background-color: white;
+    margin:10px;
+    padding:20px;
+    font-size: 35px; 
+    width:10px;  
+height: 20px;
+}
+
+
+.container5 div:nth-child(1){
+    height: 80px;;
+}
+.container5 div:nth-child(2){
+    height:40px;
+}
+.container5 div:nth-child(3){
+    height:20px;
+}
+.container5 div:nth-child(4){
+    height:100px;
+}
